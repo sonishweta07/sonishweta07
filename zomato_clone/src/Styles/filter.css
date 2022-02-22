@@ -1,0 +1,114 @@
+
+.quote{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px;
+}
+.filter-section{
+    
+    box-shadow: grey 1px 1px 1px 1px;
+
+}
+.one{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+.drop-icon{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: none;
+}
+.two{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: emoji;
+}
+.location{
+    width: 160px;
+    height: 35px;
+    margin-left: 50px;
+}
+.four{
+    margin-left: 75px;
+    color: grey;
+    margin-bottom: 5px;
+}
+.items{
+    box-shadow: grey 1px 1px 1px 1px;
+    margin-bottom: 18px;
+}
+.left-item{
+    vertical-align: top;
+    display: inline-block;
+}
+.right-item{
+    vertical-align: top;
+    display: inline-block;
+}
+.left-item img{
+    margin: 20px;
+    border-radius: 55px;
+}
+.a{
+    margin-left: 175px;
+    font-weight: bold;
+}
+.category{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.top-head{
+    margin-top: 40px;
+}
+.restaurants{
+    color: cornflowerblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.address{
+    color: grey;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.pagination {
+     margin-left: 90px;
+}
+
+@media only screen and (max-width: 600px){
+    .quote{
+        font-size: 25px;
+    }
+    .left-item img{
+        width: 160px;
+        height: 134px;
+    }
+    .a{
+        margin-left: 74px;
+    }
+    .top-head{
+        margin-top: -180px;
+        margin-left: 186px;
+    }
+    .restaurants{
+        font-size: 37px;
+    }
+    .category{
+        margin-left: 210px;
+        margin-top: -12px;
+    }
+    .drop-icon{
+        display: initial !important;
+    }
+    .pagination{
+        margin-left: 35px;
+    }
+}

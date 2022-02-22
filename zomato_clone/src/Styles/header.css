@@ -1,0 +1,63 @@
+.header{
+    height: 70px;
+    background-color: crimson;
+}
+.logo-filter{
+    font-family: emoji;
+    font-size: 40px;
+    font-weight: bold;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 74px;
+    position: absolute;
+    top: 4px;
+    border: none;
+    color: crimson;
+}
+.login-account{
+    position: absolute;
+    top: 15px;
+    left: 78%;
+}
+.login{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.account{
+    margin-left: 20px;
+    width: 165px;
+    height: 42px;
+    background: none;
+    color: white;
+    border: solid 1px white;
+    font-size: 18px;
+}
+.map-icon{
+    color: white;
+    position: absolute;
+    left: -56px;
+    top: 2px;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 600px){
+    .account{
+        width: 129px;
+        height: 42px;
+        font-size: 15px;
+    }
+    .login{
+        font-size: 15px;
+    }
+    .login-account{
+        left: 56%;
+    }
+    .logo-filter{
+        margin-left: 34px;
+    }
+}
